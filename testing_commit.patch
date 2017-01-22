@@ -1,0 +1,40 @@
+Index: src/main/java/com/llcj20/samplemod/SampleMod.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/llcj20/samplemod/SampleMod.java	(revision )
++++ src/main/java/com/llcj20/samplemod/SampleMod.java	(revision )
+@@ -0,0 +1,32 @@
++package com.llcj20.samplemod;
++
++import net.minecraftforge.fml.common.Mod;
++import net.minecraftforge.fml.common.event.FMLInitializationEvent;
++import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
++import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
++
++@Mod(modid = "samplemod", name = "samplemod", version = "1.1-0.0.0")
++public class SampleMod
++{
++
++    @Mod.Instance("samplemod")
++    public static SampleMod instance;
++
++    @Mod.EventHandler
++    public void preinit(FMLPreInitializationEvent event)
++    {
++
++    }
++
++    @Mod.EventHandler
++    public void init(FMLInitializationEvent event)
++    {
++
++    }
++
++    @Mod.EventHandler
++    public void postinit(FMLPostInitializationEvent event)
++    {
++
++    }
++}

@@ -1,0 +1,9 @@
+[{
+  "modid": "samplemod",
+  "name": "samplemod",
+  "description": "My sample mod so I can quickly copy paste to new mods",
+  "version": "1.10-0.0.0",
+  "mcversion": "1.10.0",
+  "authorList": ["llcj20"],
+  "credits": "Me",
+}]
